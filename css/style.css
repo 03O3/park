@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../image/background.png") lightgray 50% / cover no-repeat;
+    background-size: 190%;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px; 
+    width: 100%;
+    text-align: center;
+}
+
+.brend {
+    width: 85%; 
+    height: auto; 
+    margin-top: 40px;
+}
+
+.text {
+    margin-top: 130px; /* Отступ сверху для текста */
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text2 {
+    margin-top: 70px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sound_button{
+    margin-top: 130px;
+}
+
+@media screen and (max-height: 760px) { 
+    .text {
+        margin-top: 100px; /* Отступ сверху для текста */
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .text2 {
+        margin-top: 60px;
+        color: #FFF;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inter;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .sound_button{
+        margin-top: 60px;
+    }
+
+}
